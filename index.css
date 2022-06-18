@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+button {
+  cursor: pointer;
+}
+#app {
+  display: flex;
+  height: 100vh;
+}
+.left {
+  flex: 1;
+}
+.left .nav li {
+  padding: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.left .nav li.nav {
+  color: aqua;
+}
+.main {
+  flex: 4;
+  overflow-y: auto;
+}
+.main h3 {
+  margin: 20px 0;
+}
+.main p {
+  margin: 5px;
+}
+.main li {
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.right {
+  margin-top: 20px;
+  height: 50px;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  width: 100%;
+  line-height: 50px;
+  text-align: center;
+  color: #1dbaba;
+  font-size: 20px;
+}
+.submit {
+  position: fixed;
+  bottom: 100px;
+  left: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.submit button {
+  background-color: #1dbaba;
+  width: 100px;
+  height: 30px;
+  color: white;
+  border-radius: 10px;
+  border: 0;
+}
+.checked {
+  color: #1dbaba;
+  font-weight: bold;
+}
